@@ -210,25 +210,6 @@ namespace QLTV
             dgvPhieuMuon.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
         }
 
-        private void frmPhieuMuon_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void txtTimKiem_TextChanged(object sender, EventArgs e)
-        {
-            conn = new SqlConnection(strConn);
-            conn.Open();
-            DataTable dt = new DataTable();            
-            SqlDataAdapter da = new SqlDataAdapter("select * from PhieuMuon where MaDG like '" + "%" + txtTimKiem.Text + "%'",conn);
-            da.Fill(dt);
-            dgvPhieuMuon.DataSource = dt;
-            conn.Close();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
