@@ -507,15 +507,6 @@ namespace QLTV
         
         //}
 
-        //private void dgvPhieuMuon1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        //{
-        //    if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
-        //    {
-        //        txtPhieuMuon.Text = Convert.ToString(dgvPhieuMuon1.CurrentRow.Cells["MaPM"].Value);
-        //        cboDG.Text = Convert.ToString(dgvPhieuMuon1.CurrentRow.Cells["MaDG"].Value);
-        //        dtNgayMuon.Text = Convert.ToString(dgvPhieuMuon1.CurrentRow.Cells["NgayMuon"].Value);
-        //        dtNgayHen.Text = Convert.ToString(dgvPhieuMuon1.CurrentRow.Cells["NgayHenTra"].Value);
-        //    }
-        //}
+
     }
 }
