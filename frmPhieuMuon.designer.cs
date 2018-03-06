@@ -327,10 +327,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaPM;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaDG;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayMuon;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgayHenTra;
-        private System.Windows.Forms.DateTimePicker dtNgayMuon;
-        private System.Windows.Forms.DateTimePicker dtNgayHen;
-        private System.Windows.Forms.TextBox txtTimKiem;
-        private System.Windows.Forms.Label label5;
+
     }
 }
