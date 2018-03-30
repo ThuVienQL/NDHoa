@@ -32,7 +32,6 @@ namespace QLTV
             DataTable dt = new DataTable();
             da.Fill(dt);
             dgvPhieuMuon.DataSource = dt;
-            
         }
         private void dgvNhanVien_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
         {
