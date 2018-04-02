@@ -60,7 +60,6 @@ namespace QLTV
             //da1.Fill(dt1);
             //dataGridView2.DataSource = dt1;
 
-
         }
 
         //private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
