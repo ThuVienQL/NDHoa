@@ -15,7 +15,6 @@ namespace QLTV
         string strConn = @"Data Source=DESKTOP-SPIMD63;Initial Catalog=QuanLyThuVien;Integrated Security=True";
         SqlConnection conn = new SqlConnection(); // khoi tao mot doi tuong ket noi
         int chon;
-
         public frmPhieuMuon()
         {
             InitializeComponent();
