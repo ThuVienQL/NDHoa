@@ -33,9 +33,7 @@ namespace QLTV
             dgvPhieuMuon.DataSource = dt;
         }
         private void dgvNhanVien_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
-        {
-            dgvPhieuMuon.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
-        }
+        
         private void dgvPhieuMuon_Click(object sender, DataGridViewCellEventArgs e)
         {
             if(e.RowIndex >= 0 && e.ColumnIndex >= 0){
