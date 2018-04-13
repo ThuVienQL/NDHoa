@@ -31,14 +31,7 @@ namespace QLTV
             txtPhieuMuon.Enabled = false;
             txtMaPM.Enabled = false;
         }
-        //private void LoadCTMuonTra()
-        //{
-        //    SqlDataAdapter da = new SqlDataAdapter("select * from CTMuonTra",conn);
-        //    DataTable dt = new DataTable();
-        //    da.Fill(dt);
-        //    dataGridView1.DataSource = dt;
-
-        //}
+        
         //public void DataLoadPhieuMuon()
         //{
         //    SqlDataAdapter da = new SqlDataAdapter("Select * from PhieuMuon ", conn);
